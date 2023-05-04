@@ -1,0 +1,9 @@
+header .logo {
+  padding: 22px 0px;
+  margin: 0;
+  float: left;
+}
+header .logo img {
+  height: 30px;
+  width: 150px;
+}

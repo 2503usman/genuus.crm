@@ -1,0 +1,674 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+.header-section {
+    .logo {
+        padding: 22px 0px;
+        margin: 0;
+        float: left;
+        img {
+            height: 30px;
+            width: 150px;
+        }
+    }
+    .hs-menu {
+        nav {
+            // margin-top: 30px;
+            ul {
+                display: flex;
+                list-style: none;
+                margin-left: 100px;
+                li {
+                    font-size: 16px;
+                    font-family: auto;
+                    // margin-right: 35px;
+                    margin-top: 30px;
+                    margin-left: 55px;
+                }
+            }
+        }
+    }
+}
+.crm-banner-sec {
+    background-color: #470e75 !important;
+    padding: 60px 0px;
+    margin-bottom: 60px;
+    .container-box {
+        display: flex;
+        height: 100%;
+        align-items: center;
+        .text-box {
+            box-sizing: border-box;
+            h1 {
+                font-size: 40px;
+                font-weight: 700;
+                margin-bottom: 20px;
+                color: #ffffff;
+                font-family: "Red Hat Text";
+            }
+        }
+    }
+
+    .img-box {
+        box-sizing: border-box;
+        img {
+            width: 100%;
+            height: auto;
+            vertical-align: middle;
+            border-style: none;
+        }
+    }
+}
+
+.crm-about-sec {
+    margin-bottom: 60px;
+    .title-text {
+        box-sizing: border-box;
+        h1 {
+            font-size: 40px;
+            font-weight: 900;
+            margin-bottom: 20px;
+            color: #470e75;
+            font-family: "Red Hat Text";
+            text-align: center;
+        }
+    }
+    .crm-about-row {
+        // display: flex;
+        -ms-flex-wrap: wrap;
+        // flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        .connected-box {
+            margin: 60px 0px;
+            .connected-img {
+                margin: 30px 0px;
+                img {
+                    width: 80px;
+                    height: auto;
+                    vertical-align: middle;
+                    border-style: none;
+                }
+            }
+            .text-box {
+                box-sizing: border-box;
+                h1 {
+                    font-size: 25px;
+                    font-weight: 700;
+                    margin-bottom: 20px;
+                    color: #470e75;
+                    font-family: "Red Hat Text";
+                    min-height: 80px;
+                }
+                p {
+                    font-size: 18px;
+                    font-weight: 300;
+                    color: #470e75;
+                    font-family: "Red Hat Text";
+                    margin-top: 0;
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+    }
+}
+
+.crm-servies-sec {
+    margin-bottom: 60px;
+    .title-text {
+        box-sizing: border-box;
+        h1 {
+            font-size: 40px;
+            font-weight: 900;
+            margin-bottom: 20px;
+            color: #470e75;
+            font-family: "Red Hat Text";
+            text-align: center;
+        }
+    }
+    .crm-servies-row {
+        margin: 60px 0px;
+        .crm-about-left {
+            box-sizing: border-box;
+            .crm-about-content {
+                box-sizing: border-box;
+                h1 {
+                    font-size: 25px;
+                    font-weight: 600;
+                    margin-bottom: 20px;
+                    color: #000000;
+                    font-family: "Red Hat Text";
+                }
+            }
+
+            .list-ul {
+                box-sizing: border-box;
+                .list-box {
+                    display: flex;
+                    margin: 20px 0px;
+                    .number-box {
+                        background: #e0d0f5;
+                        width: 70px;
+                        height: 70px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 60px;
+                        margin-right: 20px;
+                        span {
+                            font-size: 20px;
+                            font-weight: 700;
+                            color: #470e75;
+                        }
+                    }
+                    .content-box {
+                        box-sizing: border-box;
+                        p {
+                            font-size: 17px;
+                            font-weight: 300;
+                            color: #000000;
+                        }
+                    }
+                }
+            }
+        }
+        .crm-about-right {
+            box-sizing: border-box;
+            .img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.crm-customer-sec {
+    margin-bottom: 60px;
+    background: #f4f3f8;
+    padding: 60px 0px;
+    .title-text {
+        box-sizing: border-box;
+        h1 {
+            font-size: 40px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: #470e75;
+            font-family: "Red Hat Text";
+            text-align: center;
+        }
+    }
+    .crm-customer-row {
+        margin: 30px 0px;
+        .container-box {
+            margin: 40px 0px;
+            .text-box {
+                box-sizing: border-box;
+                h1 {
+                    font-size: 25px;
+                    font-weight: 700;
+                    margin-bottom: 20px;
+                    color: #470e75;
+                    font-family: "Red Hat Text";
+                }
+                p {
+                    font-family: "Red Hat Text";
+                    font-size: 18px;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+}
+
+.crm-processes-sec {
+    margin-bottom: 60px;
+    background-color: #470e75;
+    padding: 60px 0px;
+    .crm-processes-row {
+        margin: 60px 0px;
+        .crm-processes-left {
+            box-sizing: border-box;
+            .crm-about-content {
+                text-align: center;
+                h1 {
+                    font-size: 40px;
+                    font-weight: 900;
+                    margin-bottom: 20px;
+                    color: #ffffff;
+                    font-family: "Red Hat Text";
+                }
+
+                p {
+                    font-size: 28px;
+                    font-weight: 300;
+                    margin-bottom: 20px;
+                    color: #ffffff;
+                    font-family: "Red Hat Text";
+                }
+            }
+            .list-ul {
+                background: white;
+                padding: 30px 20px;
+                .list-box {
+                    display: flex;
+                    margin: 20px 0px;
+                    .number-box {
+                        width: 10%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-right: 20px;
+                        font-family: "Red Hat Text";
+                        span {
+                            color: #fff;
+                            font-size: 25px;
+                            font-weight: 700;
+                            font-family: "Red Hat Text";
+                            width: 80px;
+                            height: 80px;
+                            overflow: hidden;
+                            border-radius: 78px;
+                            background: #ad0687;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                    }
+                    .content-box {
+                        width: 90%;
+                        h1 {
+                            font-size: 25px;
+                            font-weight: 700;
+                            color: #470e75;
+                            font-family: "Red Hat Text";
+                        }
+                        p {
+                            font-size: 18px;
+                            font-weight: 300;
+                            color: #000000;
+                            font-family: "Red Hat Text";
+                            margin-top: 0;
+                            margin-bottom: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.crm-servies_2-sec {
+    margin-bottom: 60px;
+    background: #f4f3f8;
+    padding: 60px 0px;
+    .crm-processes-row {
+        margin: 60px 0px;
+        .crm-processes-left {
+            box-sizing: border-box;
+            .crm-about-content {
+                text-align: center;
+                h1 {
+                    font-size: 40px;
+                    font-weight: 600;
+                    margin-bottom: 20px;
+                    color: #470e75;
+                    font-family: "Red Hat Text";
+                }
+                p {
+                    font-size: 28px;
+                    font-weight: 300;
+                    margin-bottom: 20px;
+                    color: #26252a;
+                    font-family: "Red Hat Text";
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+    .row-eq-height {
+        display: flex;
+        // -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        .content-col {
+            margin: 30px 0px;
+            .content-box {
+                height: 100%;
+                padding: 20px;
+                border: 1px solid #b6b0b0;
+                .icon-img {
+                    text-align: center;
+                    margin: 30px 0px;
+                    img {
+                        width: 80px;
+                        height: auto;
+                    }
+                }
+                .text-box {
+                    box-sizing: border-box;
+                    h1 {
+                        font-size: 25px;
+                        font-weight: 600;
+                        margin-bottom: 20px;
+                        color: #470e75;
+                        font-family: "Red Hat Text";
+                    }
+                    p {
+                        font-size: 18px;
+                        font-weight: 300;
+                        color: #470e75;
+                        font-family: "Red Hat Text";
+                    }
+                }
+            }
+        }
+    }
+}
+
+.crm-industries-sec {
+    margin-bottom: 60px;
+    .crm-processes-row {
+        display: flex;
+        // -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        .crm-processes-left {
+            box-sizing: border-box;
+            .crm-about-content {
+                text-align: center;
+                h1 {
+                    font-size: 40px;
+                    font-weight: 600;
+                    margin-bottom: 20px;
+                    color: #470e75;
+                    font-family: "Red Hat Text";
+                }
+            }
+        }
+    }
+    .content-box {
+        margin: 30px 0px;
+        .icon-img {
+            text-align: center;
+            margin: 30px 0px;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+        .text-box {
+            box-sizing: border-box;
+            h1 {
+                font-size: 25px;
+                font-weight: 600;
+                margin-bottom: 20px;
+                color: #470e75;
+                font-family: "Red Hat Text";
+            }
+            p {
+                font-size: 18px;
+                font-weight: 300;
+                color: #000000;
+                font-family: "Red Hat Text";
+            }
+
+            .title-text {
+                box-sizing: border-box;
+                h1 {
+                    font-size: 25px;
+                    font-weight: 600;
+                    margin-bottom: 20px;
+                    color: #470e75;
+                    font-family: "Red Hat Text";
+                    ul {
+                        padding-left: 20px;
+                        margin: 0px;
+                        li {
+                            font-size: 18px;
+                            font-weight: 300;
+                            margin-bottom: 20px;
+                            color: #470e75;
+                            font-family: "Red Hat Text";
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.crm-Partner-sec {
+    margin-bottom: 60px;
+    .crm-Partner-row {
+        display: flex;
+        // -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        .Partner-left {
+            background: #f4f3f8;
+            padding: 30px 20px;
+            .crm-processes-left {
+                box-sizing: border-box;
+                .crm-about-content {
+                    box-sizing: border-box;
+                    h1 {
+                        font-size: 40px;
+                        font-weight: 900;
+                        color: #470e75;
+                        font-family: "Red Hat Text";
+                    }
+                    .zoho-box {
+                        display: flex;
+                        align-items: center;
+                        margin: 30px 0px;
+                        .img-box {
+                            border-right: 2px solid black;
+                            margin-right: 10px;
+                            img {
+                                vertical-align: middle;
+                                border-style: none;
+                            }
+                        }
+                        .text-box {
+                            font-size: 25px;
+                            line-height: 26px;
+                            font-weight: 400;
+                            color: #000000;
+                            font-family: "Red Hat Text";
+                        }
+                    }
+                    p {
+                        font-size: 30px;
+                        font-weight: 400;
+                        color: #000000;
+                        font-family: "Red Hat Text";
+                    }
+                }
+            }
+        }
+        .Partner-right {
+            background-color: #470e75;
+            .right-content {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100%;
+                .content-text {
+                    box-sizing: border-box;
+                    h3 {
+                        font-size: 30px;
+                        font-weight: 500;
+                        color: #fdfaff;
+                        font-family: "Red Hat Text";
+                        text-align: center;
+                    }
+                    h1 {
+                        font-size: 45px;
+                        font-weight: 700;
+                        margin-bottom: 20px;
+                        color: #fdfaff;
+                        font-family: "Red Hat Text";
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.features-sec {
+    display: block;
+    .title-text {
+        box-sizing: border-box;
+        h1 {
+            font-size: 40px;
+            font-weight: 900;
+            color: #470e75;
+            font-family: "Red Hat Text";
+        }
+    }
+    .features-row {
+        display: flex;
+        // -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        .features-left {
+            padding: 20px;
+            border: 1px solid;
+            height: 100%;
+            .text-box {
+                box-sizing: border-box;
+                .img-box {
+                    box-sizing: border-box;
+                    img {
+                        width: 100%;
+                        min-height: 450px;
+                        height: 450px;
+                    }
+                }
+                .content-text {
+                    box-sizing: border-box;
+                    h1 {
+                        font-size: 25px;
+                        font-weight: 900;
+                        padding: 20px 0px;
+                        color: #470e75;
+                        font-family: "Red Hat Text";
+                        height: 90px;
+                    }
+                    p {
+                        font-size: 18px;
+                        font-weight: 300;
+                        color: #050505;
+                        font-family: "Red Hat Text";
+                    }
+                    ul {
+                        padding-left: 20px;
+                        margin: 0px;
+                        li {
+                            padding: 10px 0px;
+                            font-size: 20px;
+                            font-weight: 400;
+                            color: #470e75;
+                            font-family: "Red Hat Text";
+                        }
+                    }
+                }
+            }
+        }
+
+        .powered-row {
+            display: flex;
+            // -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+            .powered-left {
+                margin: 30px 0px;
+                .content-box {
+                    border: 1px solid;
+                    padding: 20px;
+                    height: 100%;
+                    h1 {
+                        font-size: 25px;
+                        font-weight: 900;
+                        padding: 20px 0px;
+                        color: #470e75;
+                        font-family: "Red Hat Text";
+                    }
+                    p {
+                        font-size: 22px;
+                        font-weight: 300;
+                        color: #050505;
+                        font-family: "Red Hat Text";
+                    }
+                }
+            }
+        }
+    }
+}
+
+.form-sec {
+    background: whitesmoke;
+    margin: 60px 0px;
+    padding: 60px 0px;
+    font-family: "Red Hat Text";
+    .form-box {
+        display: flex;
+        // -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        .left-box {
+            box-sizing: border-box;
+            h1 {
+                color: #470e75;
+                font-weight: 800;
+                font-size: 30px;
+                font-family: "Red Hat Text";
+            }
+            p {
+                font-size: 25px;
+                font-weight: 400;
+                font-family: "Red Hat Text";
+                line-height: 25px;
+                margin-top: 0;
+                margin-bottom: 1rem;
+            }
+
+            .img-box {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .right-box {
+        form {
+            .form-group {
+                input {
+                    border-radius: 0;
+                }
+                textarea{
+                    border-radius: 0;
+                }
+            }
+            .btn-box{
+                text-align: end;
+                margin-top: 30px;
+                font-family: 'Red Hat Text';
+                button {
+                    background: #4a3075;
+                    color: #ffff;
+                    padding: 10px 30px;
+                    border: none;
+                    font-weight: 700;
+                }
+            }
+           
+        }
+    }
+}
